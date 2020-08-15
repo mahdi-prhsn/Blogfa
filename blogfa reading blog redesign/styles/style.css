@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*============Reset Codes finished=============*/
+
+/*---------------Grneral codes----------------*/
+
+body {
+    background: #f5f5f5;
+    font-family: Tahoma;
+}
+
+.clearfix {
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #1976d2;
+}
+
+a:hover {
+    color: #0d47a1;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 5px auto;
+    padding: 8px;
+    background: #ffffff;
+}
+
+/*============general codes finished===========*/
+
+/*-----------main part codes------------------*/
+
+/*==========header & navbar codes=========*/
+
+.header {
+    background-color: #2980B9;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.header h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px;
+    font-family: Arial;
+}
+
+.header h4 {
+    font-size: 12px;
+    margin: 30px 0 0;
+}
+
+.navbar {
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 2px dashed #ccc;
+    padding-bottom: 10px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+/*---------header & navbar codes finished------------*/
+
+/*==============main content codes==================*/
+
+.post-item {
+    float: right;
+    width: 70%;
+    padding: 0 5px;
+    margin: 15px 0;
+}
+
+.post-item .post-title {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 0;
+    display: inline-block;
+}
+
+.post-item .content {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 23px;
+}
+
+.post-item .read-more {
+    font-size: 13px;
+    margin: 5px 0;
+    display: inline-block;
+}
+
+.post-item .post-info {
+    font-size: 12px;
+    color: gray;
+    padding: 5px;
+    background-color: #F9F9F9;
+    margin: 10px 0 0;
+}
+
+/*-----------main content codes finished---------*/
+
+/*==========side bar navigation codes===========*/
+
+aside {
+    float: left;
+    width: 29%;
+    position: relative;
+    top: -789px;
+}
+
+.about .about-title {
+    font-weight: bold;
+    font-size: 13px;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 8px;
+}
+
+.about .about-content {
+    padding: 10px 5px;
+    line-height: 18px;
+    font-size: 15px;
+}
+
+.pre-content .pre-content-title {
+    font-weight: bold;
+    font-size: 13px;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 8px;
+    margin-top: 10px;
+}
+
+.pre-content ul {
+    padding: 10px;
+}
+
+.pre-content ul li {
+    margin: 8px 0;
+}
+
+/*-----------main part codes finished------------------*/
+
+footer {
+    text-align: center;
+    background: #3f3f3f;
+    color: #ffffff;
+    padding: 8px 0;
+    font-size: 13px;
+    margin-top: 15px;
+}
